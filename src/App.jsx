@@ -152,6 +152,32 @@ function App() {
         </div>
       </section>
 
+      <section id="education" className="section-light">
+        <h2>Education</h2>
+        <div className="education-timeline">
+          <article className="education-item">
+            <span className="timeline-marker">2015–2019</span>
+            <h3>Bachelors in Computer Science</h3>
+            <p>GITAM University, India</p>
+            <ul>
+              <li>Dean’s list, final year project on distributed systems</li>
+              <li>Courses: Data Structures, DBMS, Networking, Distributed Systems</li>
+              <li>Graduated with 3.6 GPA</li>
+            </ul>
+          </article>
+          <article className="education-item">
+            <span className="timeline-marker">2021–2022</span>
+            <h3>Masters in Computer Science</h3>
+            <p>University of New Haven, CT</p>
+            <ul>
+              <li>Thesis: Cloud-native data pipeline orchestration for real-time analytics</li>
+              <li>Key technologies: Kafka, AWS EKS, Terraform, Observability</li>
+              <li>Graduated with 3.8 GPA</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
       <section id="contact" className="section-light">
         <h2>Contact</h2>
         <div className="contact-links">
