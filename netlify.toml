@@ -1,2 +1,5 @@
 [build]
+  # Static site — no build step. This overrides the `npm run build`
+  # command configured in the Netlify UI, which fails without a package.json.
+  command = "echo 'Static site: no build step'"
   publish = "."
