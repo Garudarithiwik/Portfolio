@@ -1,5 +1,6 @@
 [build]
-  # Static site — no build step. This overrides the `npm run build`
-  # command configured in the Netlify UI, which fails without a package.json.
-  command = "echo 'Static site: no build step'"
-  publish = "."
+  # Static site — no bundler. The build step just copies the site files into a
+  # fresh `dist/` folder. Wiping `dist/` first guarantees a stale build left over
+  # from the old React/Vite version of the site can never be published again.
+  command = "rm -rf dist && mkdir -p dist && cp -r index.html styles.css script.js assets dist/"
+  publish = "dist"

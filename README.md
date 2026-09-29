@@ -13,4 +13,6 @@ python3 -m http.server 8000
 
 ## Deploy
 
-Push to `main` — Netlify publishes the repo root as-is.
+Push to `main` — the Netlify build copies the site files (`index.html`,
+`styles.css`, `script.js`, `assets/`) into a fresh `dist/` folder and publishes it.
+If you add new top-level files, add them to the `command` in `netlify.toml`.
