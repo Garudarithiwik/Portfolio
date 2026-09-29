@@ -1,27 +1,16 @@
-# Portfolio Website — Rithiwik Garuda
+# Portfolio — Rithiwik Garuda
 
-A personal portfolio built with React, designed to showcase experience in cloud-native data platforms, microservices, and enterprise-grade architecture.
+Personal portfolio site (static HTML/CSS/JS). Deploys to Netlify straight from
+this repo — no build step.
 
-## Project structure
+## Local preview
 
-- `src/App.jsx` — main portfolio component and content
-- `src/App.css` — component styles and dark theme
-- `src/index.css` — global styles and base resets
-- `src/main.jsx` — React entrypoint
-- `RthiwikGaruda.png` — hero profile image
+```bash
+npx serve .
+# or
+python3 -m http.server 8000
+```
 
-## Quick start
+## Deploy
 
-1. `git clone https://github.com/Garudarithiwik/Portfolio.git`
-2. `cd Portfolio`
-3. `npm install`
-4. `npm run dev`
-
-Open `http://localhost:5173` in a browser.
-
-## Build
-
-- `npm run build` (creates `dist/` folder)
-- `npm run preview` (locally preview production build)
-
-
+Push to `main` — Netlify publishes the repo root as-is.
