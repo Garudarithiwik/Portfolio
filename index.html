@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rithiwik Garuda — Senior Software Development Engineer</title>
+<meta name="description" content="Rithiwik Garuda — Senior Software Development Engineer building event-driven data platforms at 100K+ events/hour. Kafka, Node.js, AWS.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23ff4d00'/><text x='50' y='68' font-size='52' font-family='Arial Black' font-weight='900' text-anchor='middle' fill='%23faf7f2'>RG</text></svg>">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div id="progress"></div>
+<div id="cursor-dot"></div><div id="cursor-ring"></div>
+
+<nav id="nav">
+  <div class="nav-inner">
+    <a class="logo" href="#top">RG<sup>®</sup></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#skills">SKILLS</a></li>
+      <li><a href="#education">EDUCATION</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+    <a href="#contact" class="btn btn-solid btn-sm magnetic">HIRE ME</a>
+    <button id="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="hero" id="top">
+  <div class="wrap">
+    <p class="hero-kicker"><span class="star">✦</span> SENIOR SOFTWARE DEVELOPMENT ENGINEER <span class="pill">OPEN TO WORK</span></p>
+    <h1 class="hero-title">
+      <span class="line"><span>RITHIWIK</span></span>
+      <span class="line"><span><span class="outline">GARUDA</span><span class="tang">.</span></span></span>
+    </h1>
+    <p class="hero-sub">I build <strong>event-driven data platforms</strong> that move <strong>100K+ events an hour</strong> — and resilient APIs that never blink.</p>
+    <div class="hero-ctas">
+      <a href="#contact" class="btn btn-solid magnetic">GET IN TOUCH →</a>
+      <a href="#work" class="btn btn-ghost magnetic">VIEW WORK ↓</a>
+    </div>
+    <div class="hero-meta">
+      <div>BASED IN<b>Connecticut, USA</b></div>
+      <div>CURRENTLY<b>Travelers Insurance</b></div>
+      <div>STATUS<b><span class="dot-live"></span>Open to opportunities</b></div>
+    </div>
+    <figure class="polaroid" aria-label="Portrait of Rithiwik Garuda">
+      <span class="tape"></span>
+      <div class="ph"><img src="assets/profile-linkedin.jpg" alt="Rithiwik Garuda — professional headshot"></div>
+      <figcaption>RITHIWIK GARUDA ✦ EST. 6+ YRS</figcaption>
+      <span class="sticker s1">6+ YRS SHIPPING</span>
+      <span class="sticker s2">100K+ EVENTS /HR</span>
+    </figure>
+  </div>
+</header>
+
+<div class="ticker" aria-hidden="true">
+  <div class="ticker-track" id="ticker1"></div>
+</div>
+
+<section id="about">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="sec-num">01</span>
+      <div><p class="sec-kicker">THE SHORT VERSION</p><h2 class="sec-title">About <span class="tang">me</span></h2></div>
+    </div>
+    <p class="manifesto rv d1">For <span class="hl">6+ years</span> I've built cloud-native data platforms and APIs at enterprise scale — Kafka pipelines on EKS, real-time ingestion in Node.js, <span class="u">migrations with Databricks</span>, and deploys that never go down.</p>
+    <div class="stats">
+      <div class="stat rv d1"><b><span class="count" data-to="6">0</span>+</b><span>YEARS SHIPPING</span></div>
+      <div class="stat rv d2"><b><span class="count" data-to="100">0</span>K+</b><span>EVENTS / HOUR</span></div>
+      <div class="stat rv d3"><b><span class="count" data-to="70">0</span>+</b><span>APPS OPTIMIZED</span></div>
+      <div class="stat rv d4"><b><span class="count" data-to="90">0</span>%</b><span>TEST COVERAGE</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="ticker ink" aria-hidden="true">
+  <div class="ticker-track" id="ticker2"></div>
+</div>
+
+<section id="work">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="sec-num">02</span>
+      <div><p class="sec-kicker">WHERE I'VE BEEN</p><h2 class="sec-title">Work <span class="tang">history</span></h2></div>
+    </div>
+    <div class="stack">
+      <article class="job-card c1 rv">
+        <div class="job-top">
+          <div><div class="job-num">01</div>
+            <h3 class="job-role">Senior Software Development Engineer</h3>
+            <p class="job-co">TRAVELERS INSURANCE</p></div>
+          <span class="date-pill">OCT 2022 — PRESENT</span>
+        </div>
+        <ul>
+          <li>Built Kafka topic consumer services on <b>Amazon EKS</b>, processing <b>50K–100K+ events/hour</b> with retry/backoff and autoscaling.</li>
+          <li>Developed real-time ingestion APIs in <b>Node.js + TypeScript</b>, transforming JSON/XML payloads for MDM ingestion.</li>
+          <li>Implemented <b>AWS Lambda</b> listeners for latency-critical workflows, routing Kafka events to containerized systems.</li>
+          <li>Created observability dashboards with <b>CloudWatch, Kibana, Dynatrace, Splunk, Graylog</b>.</li>
+          <li>Event deduplication, auditing &amp; status tracking with <b>MongoDB</b> optimized schemas and indexes.</li>
+          <li>Led MDM migration <b>Informatica → Reltio</b> using <b>Databricks ETL</b> pipelines and S3 staging.</li>
+          <li>Designed an <b>anti-corruption layer</b> for parallel publishing across legacy and modern systems.</li>
+          <li>Modernized Java MDB service: <b>JMS → Kafka</b>, XML → JSON for Node.js consumers.</li>
+          <li><b>Terraform</b> infra + CI/CD via Jenkins, GitHub Actions, Argo CD; zero-downtime Docker deploys to EKS; Angular resiliency dashboard; <b>70+ Node apps</b> optimized; <b>85–90%</b> test coverage with Jest/Mocha/Chai.</li>
+        </ul>
+        <div class="job-tags"><span>KAFKA</span><span>NODE.JS</span><span>TYPESCRIPT</span><span>AWS EKS</span><span>DATABRICKS</span><span>TERRAFORM</span></div>
+      </article>
+      <article class="job-card c2 rv">
+        <div class="job-top">
+          <div><div class="job-num">02</div>
+            <h3 class="job-role">Research Assistant</h3>
+            <p class="job-co">UNIVERSITY OF NEW HAVEN</p></div>
+          <span class="date-pill">JAN 2021 — AUG 2022</span>
+        </div>
+        <ul>
+          <li>Led development of the <b>Shuttle Tracking app</b> — adopted by <b>70% of students</b> for daily commute.</li>
+          <li><b>React</b> frontend, <b>Node.js</b> REST APIs, MySQL + MongoDB for real-time location data.</li>
+          <li>Stakeholder collaboration, ongoing maintenance and feature enhancements.</li>
+        </ul>
+        <div class="job-tags"><span>REACT</span><span>NODE.JS</span><span>MYSQL</span><span>MONGODB</span></div>
+      </article>
+      <article class="job-card c3 rv">
+        <div class="job-top">
+          <div><div class="job-num">03</div>
+            <h3 class="job-role">Software Development Engineer</h3>
+            <p class="job-co">TATA CONSULTANCY SERVICES</p></div>
+          <span class="date-pill">APR 2019 — DEC 2020</span>
+        </div>
+        <ul>
+          <li>Full-stack engineer on the <b>mytimesheet</b> product — Angular + Node.js, end-to-end delivery.</li>
+          <li>Secure auth with <b>JWT &amp; OAuth</b>, role-based access control.</li>
+          <li>MySQL query optimization, Winston logging, Git branch workflow.</li>
+        </ul>
+        <div class="job-tags"><span>ANGULAR</span><span>NODE.JS</span><span>MYSQL</span><span>OAUTH</span></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="skills">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="sec-num">03</span>
+      <div><p class="sec-kicker">THE TOOLBOX</p><h2 class="sec-title">Skills <span class="tang">&amp;</span> stack</h2></div>
+    </div>
+    <div class="skill-group rv">
+      <p class="skill-label">Languages</p>
+      <div class="pills"><span class="pill2">Python</span><span class="pill2">Java</span><span class="pill2">JavaScript</span><span class="pill2">TypeScript</span></div>
+    </div>
+    <div class="skill-group rv d1">
+      <p class="skill-label">Frontend</p>
+      <div class="pills"><span class="pill2">React</span><span class="pill2">Angular</span><span class="pill2">Next.js</span><span class="pill2">React Query</span><span class="pill2">HTML / CSS</span></div>
+    </div>
+    <div class="skill-group rv d1">
+      <p class="skill-label">Backend &amp; APIs</p>
+      <div class="pills"><span class="pill2">Node.js</span><span class="pill2">Express</span><span class="pill2">REST APIs</span><span class="pill2">Microservices</span><span class="pill2">Event-Driven Design</span></div>
+    </div>
+    <div class="skill-group rv d2">
+      <p class="skill-label">Data &amp; Streaming</p>
+      <div class="pills"><span class="pill2">Apache Kafka</span><span class="pill2">Databricks</span><span class="pill2">SQL Server</span><span class="pill2">MySQL</span><span class="pill2">PostgreSQL</span><span class="pill2">MongoDB</span></div>
+    </div>
+    <div class="skill-group rv d2">
+      <p class="skill-label">Cloud &amp; DevOps</p>
+      <div class="pills"><span class="pill2">AWS</span><span class="pill2">S3</span><span class="pill2">Lambda</span><span class="pill2">EKS</span><span class="pill2">Docker</span><span class="pill2">Kubernetes</span><span class="pill2">Terraform</span><span class="pill2">Jenkins</span><span class="pill2">GitHub Actions</span><span class="pill2">Argo CD</span></div>
+    </div>
+    <div class="skill-group rv d3">
+      <p class="skill-label">Observability</p>
+      <div class="pills"><span class="pill2">CloudWatch</span><span class="pill2">Kibana</span><span class="pill2">Dynatrace</span><span class="pill2">Splunk</span><span class="pill2">Graylog</span></div>
+    </div>
+    <div class="skill-group rv d3">
+      <p class="skill-label">Practices</p>
+      <div class="pills"><span class="pill2">Agile / Scrum</span><span class="pill2">CI / CD</span><span class="pill2">Zero-Downtime Deploys</span></div>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="sec-num">04</span>
+      <div><p class="sec-kicker" style="color:#b9b2a4;">THE PAPER TRAIL</p><h2 class="sec-title">Educa<span class="tang">tion</span></h2></div>
+    </div>
+    <div class="rv d1">
+      <div class="edu-row">
+        <div><p class="edu-degree">MS — Computer Science</p><p class="edu-school">UNIVERSITY OF NEW HAVEN</p></div>
+        <div class="edu-meta">2021 — 2022<small>Thesis: cloud-native data pipeline orchestration for real-time analytics</small></div>
+      </div>
+      <div class="edu-row">
+        <div><p class="edu-degree">BS — Computer Science</p><p class="edu-school">GITAM UNIVERSITY</p></div>
+        <div class="edu-meta">2015 — 2019<small>Graduated with 3.6 GPA · distributed systems focus</small></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <span class="sec-num">05</span>
+      <div><p class="sec-kicker">NO FORMS, JUST TALK</p><h2 class="sec-title">Say <span class="tang">hello</span></h2></div>
+    </div>
+    <a class="big-cta rv d1" href="mailto:rithiwikgaruda04@gmail.com">
+      <p class="contact-big">Let's build<br>something <span class="tang">loud</span> <span class="arrow">→</span></p>
+    </a>
+    <p class="contact-sub rv d2">Backend, platform, or data-engineering roles — I'm listening. Fastest way to reach me is email.</p>
+    <div class="rv d2"><a href="mailto:rithiwikgaruda04@gmail.com" class="btn btn-solid magnetic">rithiwikgaruda04@gmail.com</a></div>
+    <div class="contact-cards">
+      <a class="ccard rv d1" href="tel:+14756558713"><small>PHONE</small><b>+1 475 655 8713</b></a>
+      <a class="ccard rv d2" href="https://www.linkedin.com/in/rithiwik-garuda-351920239" target="_blank" rel="noopener"><small>LINKEDIN</small><b>linkedin.com/in/rithiwik-garuda-351920239</b></a>
+      <a class="ccard rv d3" href="https://github.com/Garudarithiwik" target="_blank" rel="noopener"><small>GITHUB</small><b>github.com/Garudarithiwik</b></a>
+      <a class="ccard rv d4" href="mailto:rithiwikgaruda04@gmail.com"><small>EMAIL</small><b>rithiwikgaruda04@gmail.com</b></a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap foot-inner">
+    <span>© 2026 RITHIWIK GARUDA — BUILT LOUD IN CONNECTICUT ✦</span>
+    <a href="#top" id="toTop">BACK TO TOP ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
